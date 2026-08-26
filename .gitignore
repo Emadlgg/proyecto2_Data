@@ -1,0 +1,19 @@
+# Datos e imágenes pesadas
+data/raw/
+
+# Archivos comprimidos
+*.zip
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
