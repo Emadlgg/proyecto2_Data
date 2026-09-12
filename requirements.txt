@@ -2,6 +2,11 @@ pandas
 numpy
 matplotlib
 seaborn
+pillow
+gdown
+scipy
 jupyter
-requests
-Pillow
+jupyterlab
+notebook
+ipykernel
+nbconvert

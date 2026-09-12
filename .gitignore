@@ -1,19 +1,21 @@
-# Datos e imágenes pesadas
+# Entorno virtual (cubre tanto .venv como venv)
+.venv/
+venv/
+env/
+
+# Datos pesados (zips e imágenes extraídas) - no se versionan
 data/raw/
 
-# Archivos comprimidos
-*.zip
-
-# Archivos de Python
+# Cache de Python
 __pycache__/
-*.py[cod]
+*.pyc
 
-# Entornos virtuales
-venv/
-.venv/
-
-# Jupyter
+# Checkpoints de Jupyter
 .ipynb_checkpoints/
 
-# Archivos del sistema
+# Archivos de sistema/editor
 .DS_Store
+.vscode/settings.json
+
+# Variables de entorno (si algún día guardás credenciales ahí)
+.env
