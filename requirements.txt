@@ -1,10 +1,11 @@
 pandas
 numpy
+scipy
+scikit-learn
 matplotlib
 seaborn
 pillow
 gdown
-scipy
 jupyter
 jupyterlab
 notebook
