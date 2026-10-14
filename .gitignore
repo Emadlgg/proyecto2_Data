@@ -1,10 +1,12 @@
-# Entorno virtual (cubre tanto .venv como venv)
+# Entorno virtual
 .venv/
 venv/
 env/
 
-# Datos pesados (zips e imágenes extraídas) - no se versionan
+# Datos pesados (no se versionan)
 data/raw/
+data/processed/
+data/embeddings/
 
 # Cache de Python
 __pycache__/
@@ -17,5 +19,5 @@ __pycache__/
 .DS_Store
 .vscode/settings.json
 
-# Variables de entorno (si algún día guardás credenciales ahí)
+# Variables de entorno
 .env

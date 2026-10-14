@@ -10,4 +10,4 @@ jupyter
 jupyterlab
 notebook
 ipykernel
-nbconvert
+nbconvert   
