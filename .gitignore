@@ -7,6 +7,9 @@ env/
 data/raw/
 data/processed/
 data/embeddings/
+models/
+
+
 
 # Cache de Python
 __pycache__/
