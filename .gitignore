@@ -1,24 +1,23 @@
-# Entorno virtual
+# Entornos virtuales
 .venv/
 venv/
 env/
 
-# Datos pesados (no se versionan)
+# Datos pesados (se regeneran con los notebooks)
 data/raw/
 data/processed/
 data/embeddings/
+data/finetuning/
+
+# Modelos entrenados (pesos y archivos .joblib)
 models/
 
-
-
-# Cache de Python
+# Cache de Python y Jupyter
 __pycache__/
 *.pyc
-
-# Checkpoints de Jupyter
 .ipynb_checkpoints/
 
-# Archivos de sistema/editor
+# Archivos de sistema y editor
 .DS_Store
 .vscode/settings.json
 
